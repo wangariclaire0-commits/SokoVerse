@@ -1,0 +1,37 @@
+{
+  "name": "sokoverse",
+  "version": "1.0.0",
+  "description": "Find Anything. Buy Anywhere.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangariclaire0-commits/SokoVerse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangariclaire0-commits/SokoVerse/issues"
+  },
+  "homepage": "https://github.com/wangariclaire0-commits/SokoVerse#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "autoprefixer": "^10.5.2",
+    "next": "^16.2.9",
+    "postcss": "^8.5.15",
+    "postcss-import": "^16.1.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.0.1",
+    "@types/react": "19.2.17",
+    "typescript": "6.0.3"
+  }
+}
