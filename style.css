@@ -59,14 +59,15 @@ max-width:700px;
 margin:auto;
 margin-bottom:30px;
 }
-
 .search-box{
 display:flex;
+width:100%;
 max-width:700px;
 margin:auto;
-background:white;
-border-radius:50px;
-overflow:hidden;
+}
+
+.search-box input{
+width:100%;
 }
 
 .search-box input{
@@ -153,4 +154,65 @@ background:#081b39;
 color:white;
 padding:30px;
 text-align:center;
+}
+.store-card{
+background:white;
+padding:20px;
+border-radius:15px;
+text-align:center;
+}
+
+.store-card img{
+width:50px;
+height:50px;
+object-fit:contain;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+gap:20px;
+}
+
+.nav-links{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:2.5rem;
+}
+
+.search-box{
+flex-direction:column;
+border-radius:20px;
+}
+
+.search-box input{
+width:100%;
+}
+
+.search-box button{
+width:100%;
+border-radius:0;
+}
+
+.features{
+grid-template-columns:1fr;
+}
+
+.products-grid{
+grid-template-columns:1fr;
+}
+
+.stores-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.grid{
+grid-template-columns:repeat(2,1fr);
+}
+
 }

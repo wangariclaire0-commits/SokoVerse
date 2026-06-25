@@ -1,14 +1,19 @@
-document.querySelector("button").addEventListener("click", () => {
+const searchBtn =
+document.querySelector(".search-box button");
 
-let keyword =
-document.querySelector("input").value;
+searchBtn.addEventListener("click", () => {
 
-if(keyword === ""){
-alert("Enter a product");
+const keyword =
+document.querySelector(".search-box input")
+.value
+.trim();
+
+if(!keyword){
+alert("Please enter a product");
 return;
 }
 
 window.location.href =
-`search.html?q=${keyword}`;
+`search.html?q=${encodeURIComponent(keyword)}`;
 
 });
